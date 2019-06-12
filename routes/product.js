@@ -6,11 +6,11 @@ const router = express.Router();
 router.post("/product",(req,res,next) => {
   console.log("request ",req.body)
   const   {
-    name, price
+    name, price,image
   }= req.body;
 
   const product= new Product ({
-    name, price
+    name, price,image
   });
 
 
@@ -28,7 +28,6 @@ router.post("/product",(req,res,next) => {
     console.log('**********-*************')
     Product.find()
       .then((result)=>{
-        console.log('entro al chid0')
         res.json(result)
       })
       .catch(err => next(err));
@@ -51,7 +50,23 @@ router.post("/product",(req,res,next) => {
       });
   })
 
-
+router.put("/product/:id", (req, res, next) => {
+  if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
+    res.status(400).json({ message: "El id no existe" });
+    return;
+  }
+  Product.findByIdAndUpdate(req.params.id, req.body)
+    .then((res) => {
+      res.status(200).json({
+        message: `Proyecto con id ${
+          req.params.id
+          } se ha actualizado correctamente`
+      });
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
 
 
 module.exports=router
