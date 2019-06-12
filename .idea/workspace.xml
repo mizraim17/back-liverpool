@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac619747-7393-40e7-b329-4d2f9a8ae9b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac619747-7393-40e7-b329-4d2f9a8ae9b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -83,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/now.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="33" />
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -115,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1425" />
     <option name="width" value="1861" />
     <option name="height" value="1080" />
@@ -187,16 +185,15 @@
       <workItem from="1560197830814" duration="3453000" />
       <workItem from="1560268285671" duration="1798000" />
       <workItem from="1560305875712" duration="5095000" />
-      <workItem from="1560330057501" duration="4428000" />
+      <workItem from="1560330057501" duration="4552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25148000" />
+    <option name="totallyTimeSpent" value="25272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1425" y="0" width="1861" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="1425" y="0" width="1861" height="1080" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12933406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -252,14 +249,14 @@
     <entry file="file://$PROJECT_DIR$/now.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="33" />
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
