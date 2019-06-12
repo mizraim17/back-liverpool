@@ -2,7 +2,7 @@
 
 Este el backend sirve para almacenar los artículos que sen envian a través de la peticionés de la app https://github.com/mizraim17/liverpoolApi , los datos se manejan con  mongoose para almacenar en la  BD MongoDB
 
-Para que funcione es necesario crear un archivo de configuración de variables . env con los siguientes datos
+Para que funcione es necesario crear un archivo de configuración de variables . env con los siguientes datos o correrlo desde el servidor de aplicaciones https://back-liverpool.herokuapp.com/
 
 PORT=3005
 
