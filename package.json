@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "now-build": "react-scripts build",
     "start": "node ./bin/www",
     "dev": "DEBUG=project-3.0:* nodemon ./bin/www",
     "dev-windows": "nodemon ./bin/www"
