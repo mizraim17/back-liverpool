@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "now-build": "react-scripts build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "start": "node ./bin/www",
     "dev": "DEBUG=back-liverpool:* nodemon ./bin/www",
     "dev-windows": "nodemon ./bin/www"
@@ -14,10 +17,12 @@
     "cors": "^2.8.5",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "global": "^4.4.0",
     "hbs": "^4.0.1",
     "mongoose": "^5.2.10",
     "morgan": "^1.9.0",
     "node-sass-middleware": "^0.11.0",
+    "now": "^15.4.0",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
